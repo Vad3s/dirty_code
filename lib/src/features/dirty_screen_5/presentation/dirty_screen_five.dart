@@ -1,3 +1,4 @@
+import 'package:dirty_code/src/features/dirty_screen_5/presentation/aufgabe_five.dart';
 import 'package:flutter/material.dart';
 
 class DirtyScreenFive extends StatelessWidget {
@@ -8,81 +9,25 @@ class DirtyScreenFive extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Dirty Screen #5"),
       ),
-      body: SingleChildScrollView(
+      body: const SingleChildScrollView(
         scrollDirection: Axis.vertical,
         child: Column(
           children: [
-            Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(12),
-                color: Colors.red,
-              ),
-              margin: const EdgeInsets.all(4),
-              padding: const EdgeInsets.all(16.0),
-              child: const Row(
-                children: [
-                  Icon(Icons.favorite, color: Colors.white),
-                  SizedBox(width: 8),
-                  Text(
-                    'Favorite 1',
-                    style: TextStyle(fontSize: 20, color: Colors.white),
-                  ),
-                ],
-              ),
+            AufgabeFive(
+              number5: 1,
+              color5: Colors.orange,
             ),
-            Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(12),
-                color: Colors.pink,
-              ),
-              margin: const EdgeInsets.all(4),
-              padding: const EdgeInsets.all(16.0),
-              child: const Row(
-                children: [
-                  Icon(Icons.favorite, color: Colors.white),
-                  SizedBox(width: 8),
-                  Text(
-                    'Favorite 2',
-                    style: TextStyle(fontSize: 20, color: Colors.white),
-                  ),
-                ],
-              ),
+            AufgabeFive(
+              number5: 2,
+              color5: Colors.pink,
             ),
-            Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(12),
-                color: Colors.purple,
-              ),
-              margin: const EdgeInsets.all(4),
-              padding: const EdgeInsets.all(16.0),
-              child: const Row(
-                children: [
-                  Icon(Icons.favorite, color: Colors.white),
-                  SizedBox(width: 8),
-                  Text(
-                    'Favorite 3',
-                    style: TextStyle(fontSize: 20, color: Colors.white),
-                  ),
-                ],
-              ),
+            AufgabeFive(
+              number5: 3,
+              color5: Colors.purple,
             ),
-            Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(12),
-                color: Colors.deepPurple,
-              ),
-              margin: const EdgeInsets.all(4),
-              padding: const EdgeInsets.all(16.0),
-              child: const Row(
-                children: [
-                  Icon(Icons.favorite, color: Colors.white),
-                  SizedBox(width: 8),
-                  Text(
-                    'Favorite 4',
-                    style: TextStyle(fontSize: 20, color: Colors.white),
-                  ),
-                ],
-              ),
+            AufgabeFive(
+              number5: 4,
+              color5: Color.fromARGB(255, 49, 0, 90),
             ),
           ],
         ),

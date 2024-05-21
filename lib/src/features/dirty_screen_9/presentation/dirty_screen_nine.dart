@@ -1,3 +1,4 @@
+import 'package:dirty_code/src/features/dirty_screen_9/presentation/aufgabe_nine.dart';
 import 'package:flutter/material.dart';
 
 class DirtyScreenNine extends StatelessWidget {
@@ -12,54 +13,18 @@ class DirtyScreenNine extends StatelessWidget {
         scrollDirection: Axis.vertical,
         child: Column(
           children: [
-            Padding(
-              padding: EdgeInsets.all(16.0),
-              child: Row(
-                children: [
-                  Text('4', style: TextStyle(fontSize: 24)),
-                  Text(' + ', style: TextStyle(fontSize: 24)),
-                  Text('5', style: TextStyle(fontSize: 24)),
-                  Text(' = ', style: TextStyle(fontSize: 24)),
-                  Text('9', style: TextStyle(fontSize: 24)),
-                ],
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.all(16.0),
-              child: Row(
-                children: [
-                  Text('3', style: TextStyle(fontSize: 24)),
-                  Text(' + ', style: TextStyle(fontSize: 24)),
-                  Text('3', style: TextStyle(fontSize: 24)),
-                  Text(' = ', style: TextStyle(fontSize: 24)),
-                  Text('6', style: TextStyle(fontSize: 24)),
-                ],
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.all(16.0),
-              child: Row(
-                children: [
-                  Text('2', style: TextStyle(fontSize: 24)),
-                  Text(' + ', style: TextStyle(fontSize: 24)),
-                  Text('8', style: TextStyle(fontSize: 24)),
-                  Text(' = ', style: TextStyle(fontSize: 24)),
-                  Text('10', style: TextStyle(fontSize: 24)),
-                ],
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.all(16.0),
-              child: Row(
-                children: [
-                  Text('7', style: TextStyle(fontSize: 24)),
-                  Text(' + ', style: TextStyle(fontSize: 24)),
-                  Text('1', style: TextStyle(fontSize: 24)),
-                  Text(' = ', style: TextStyle(fontSize: 24)),
-                  Text('8', style: TextStyle(fontSize: 24)),
-                ],
-              ),
-            ),
+            AufgabeNine(
+                text1: "4", text2: " + ", text3: "5", text4: " = ", text5: "9"),
+            AufgabeNine(
+                text1: "3", text2: " + ", text3: "3", text4: " = ", text5: "6"),
+            AufgabeNine(
+                text1: "2",
+                text2: " + ",
+                text3: "8",
+                text4: " = ",
+                text5: "10"),
+            AufgabeNine(
+                text1: "7", text2: " + ", text3: "1", text4: " = ", text5: "8"),
           ],
         ),
       ),
