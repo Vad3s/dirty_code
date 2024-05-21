@@ -4,11 +4,7 @@ class TaskTwentyFour extends StatelessWidget {
   final String name;
   final bool isDone;
 
-  const TaskTwentyFour({
-    required this.name,
-    required this.isDone,
-    super.key,
-  });
+  const TaskTwentyFour({super.key, required this.name, required this.isDone});
 
   @override
   Widget build(BuildContext context) {
