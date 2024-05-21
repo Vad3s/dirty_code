@@ -25,7 +25,7 @@ class TaskFour extends StatelessWidget {
           icon,
           const SizedBox(width: 8),
           Text(
-            '$buttonname',
+            buttonname,
             style: const TextStyle(fontSize: 20, color: Colors.white),
           ),
         ],

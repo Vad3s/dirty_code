@@ -8,16 +8,16 @@ class TaskTen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.all(16.0),
+      padding: const EdgeInsets.all(16.0),
       child: Row(
         children: [
           CircleAvatar(
             backgroundImage: logo,
           ),
-          SizedBox(width: 8),
+          const SizedBox(width: 8),
           Text(
             name,
-            style: TextStyle(fontSize: 20),
+            style: const TextStyle(fontSize: 20),
           ),
         ],
       ),

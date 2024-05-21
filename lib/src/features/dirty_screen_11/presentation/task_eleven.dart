@@ -10,7 +10,7 @@ class TaskEleven extends StatelessWidget {
     return ListTile(
       leading: const Icon(Icons.event),
       title: Text(party),
-      subtitle: Text('Party'),
+      subtitle: const Text('Party'),
       trailing: const Icon(Icons.arrow_forward),
       onTap: () {},
     );
