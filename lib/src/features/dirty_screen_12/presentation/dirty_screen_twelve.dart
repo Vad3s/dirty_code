@@ -1,3 +1,4 @@
+import 'package:dirty_code/src/features/dirty_screen_12/presentation/task_twelve.dart';
 import 'package:flutter/material.dart';
 
 class DirtyScreenTwelve extends StatelessWidget {
@@ -8,90 +9,20 @@ class DirtyScreenTwelve extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Dirty Screen #12"),
       ),
-      body: SingleChildScrollView(
+      body: const SingleChildScrollView(
         scrollDirection: Axis.vertical,
         child: Column(
           children: [
-            Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(12),
-                color: Colors.lightBlueAccent,
-              ),
-              margin: const EdgeInsets.all(4),
-              padding: const EdgeInsets.all(16.0),
-              child: const Column(
-                children: [
-                  Text(
-                    'Döner',
-                    style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-                  ),
-                  SizedBox(height: 8),
-                  Text('Price: 10 €', style: TextStyle(fontSize: 18)),
-                  SizedBox(height: 8),
-                  Text('Essen'),
-                ],
-              ),
-            ),
-            Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(12),
-                color: Colors.lightGreenAccent,
-              ),
-              margin: const EdgeInsets.all(4),
-              padding: const EdgeInsets.all(16.0),
-              child: const Column(
-                children: [
-                  Text(
-                    'Yufka',
-                    style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-                  ),
-                  SizedBox(height: 8),
-                  Text('Price: 20 €', style: TextStyle(fontSize: 18)),
-                  SizedBox(height: 8),
-                  Text('Essen'),
-                ],
-              ),
-            ),
-            Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(12),
-                color: Colors.purpleAccent,
-              ),
-              margin: const EdgeInsets.all(4),
-              padding: const EdgeInsets.all(16.0),
-              child: const Column(
-                children: [
-                  Text(
-                    'Pizza',
-                    style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-                  ),
-                  SizedBox(height: 8),
-                  Text('Price: 30 €', style: TextStyle(fontSize: 18)),
-                  SizedBox(height: 8),
-                  Text('Essen'),
-                ],
-              ),
-            ),
-            Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(12),
-                color: Colors.pinkAccent,
-              ),
-              margin: const EdgeInsets.all(4),
-              padding: const EdgeInsets.all(16.0),
-              child: const Column(
-                children: [
-                  Text(
-                    'Sushi',
-                    style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
-                  ),
-                  SizedBox(height: 8),
-                  Text('Price: 40 €', style: TextStyle(fontSize: 18)),
-                  SizedBox(height: 8),
-                  Text('Essen'),
-                ],
-              ),
-            ),
+            TaskTwelve(
+                hintergrund: Colors.lightBlueAccent, title: "Döner", price: 10),
+            TaskTwelve(
+                hintergrund: Colors.lightGreenAccent,
+                title: "Yufka",
+                price: 20),
+            TaskTwelve(
+                hintergrund: Colors.purpleAccent, title: "Pizza", price: 30),
+            TaskTwelve(
+                hintergrund: Colors.pinkAccent, title: "Sushi", price: 40),
           ],
         ),
       ),

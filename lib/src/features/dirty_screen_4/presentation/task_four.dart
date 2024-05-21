@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AufgabeFour extends StatelessWidget {
-  const AufgabeFour(
+class TaskFour extends StatelessWidget {
+  const TaskFour(
       {super.key,
       required this.icon,
       required this.buttonname,
@@ -23,10 +23,10 @@ class AufgabeFour extends StatelessWidget {
       child: Row(
         children: [
           icon,
-          SizedBox(width: 8),
+          const SizedBox(width: 8),
           Text(
             '$buttonname',
-            style: TextStyle(fontSize: 20, color: Colors.white),
+            style: const TextStyle(fontSize: 20, color: Colors.white),
           ),
         ],
       ),

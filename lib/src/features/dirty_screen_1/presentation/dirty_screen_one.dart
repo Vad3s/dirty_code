@@ -1,4 +1,4 @@
-import 'package:dirty_code/src/features/dirty_screen_1/presentation/box_number.dart';
+import 'package:dirty_code/src/features/dirty_screen_1/presentation/task_one.dart';
 import 'package:flutter/material.dart';
 
 class DirtyScreenOne extends StatelessWidget {
@@ -12,10 +12,10 @@ class DirtyScreenOne extends StatelessWidget {
       body: const SingleChildScrollView(
         scrollDirection: Axis.horizontal,
         child: Column(children: [
-          BoxNumber(number: 1),
-          BoxNumber(number: 2),
-          BoxNumber(number: 3),
-          BoxNumber(number: 4),
+          TaskOne(number: 1),
+          TaskOne(number: 2),
+          TaskOne(number: 3),
+          TaskOne(number: 4),
         ]),
       ),
     );

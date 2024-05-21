@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AufgabeSeven extends StatelessWidget {
-  const AufgabeSeven(
+class TaskSeven extends StatelessWidget {
+  const TaskSeven(
       {super.key,
       required this.icon7,
       required this.iconname,
@@ -20,8 +20,8 @@ class AufgabeSeven extends StatelessWidget {
           children: [
             icon7,
             const SizedBox(height: 8),
-            Text('$iconname', style: const TextStyle(fontSize: 22)),
-            Text('$icontext', style: const TextStyle(fontSize: 16)),
+            Text(iconname, style: const TextStyle(fontSize: 22)),
+            Text(icontext, style: const TextStyle(fontSize: 16)),
           ],
         ),
       ),

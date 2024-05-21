@@ -1,4 +1,4 @@
-import 'package:dirty_code/src/features/dirty_screen_7/presentation/aufgabe_seven.dart';
+import 'package:dirty_code/src/features/dirty_screen_7/presentation/task_seven.dart';
 import 'package:flutter/material.dart';
 
 class DirtyScreenSeven extends StatelessWidget {
@@ -13,19 +13,19 @@ class DirtyScreenSeven extends StatelessWidget {
         scrollDirection: Axis.vertical,
         child: Column(
           children: [
-            AufgabeSeven(
+            TaskSeven(
                 icon7: Icon(Icons.star, size: 50),
                 iconname: "Stern",
                 icontext: "Das ist ein Stern"),
-            AufgabeSeven(
+            TaskSeven(
                 icon7: Icon(Icons.favorite, size: 50),
                 iconname: "Herz",
                 icontext: "Das ist ein Herz"),
-            AufgabeSeven(
+            TaskSeven(
                 icon7: Icon(Icons.home, size: 50),
                 iconname: "Haus",
                 icontext: "Das ist ein Haus"),
-            AufgabeSeven(
+            TaskSeven(
                 icon7: Icon(Icons.work, size: 50),
                 iconname: "Koffer",
                 icontext: "Das ist ein Koffer"),

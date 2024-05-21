@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AufgabeThree extends StatelessWidget {
-  const AufgabeThree({super.key, required this.aufgabe3});
+class TaskThree extends StatelessWidget {
+  const TaskThree({super.key, required this.aufgabe3});
 
   final int aufgabe3;
 
@@ -10,7 +10,7 @@ class AufgabeThree extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(12),
-          color: Color.fromARGB(255, 227, 121, 121)),
+          color: const Color.fromARGB(255, 227, 121, 121)),
       margin: const EdgeInsets.all(4),
       padding: const EdgeInsets.all(16.0),
       child: Row(

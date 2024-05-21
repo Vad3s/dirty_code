@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AufgabeFive extends StatelessWidget {
-  const AufgabeFive({super.key, required this.number5, required this.color5});
+class TaskFive extends StatelessWidget {
+  const TaskFive({super.key, required this.number5, required this.color5});
 
   final int number5;
   final Color color5;

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AufgabeEight extends StatelessWidget {
-  const AufgabeEight({super.key, required this.title8, required this.bruch});
+class TaskEight extends StatelessWidget {
+  const TaskEight({super.key, required this.title8, required this.bruch});
 
   final String title8;
   final String bruch;

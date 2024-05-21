@@ -1,4 +1,4 @@
-import 'package:dirty_code/src/features/dirty_screen_4/presentation/aufgabe_four.dart';
+import 'package:dirty_code/src/features/dirty_screen_4/presentation/task_four.dart';
 import 'package:flutter/material.dart';
 
 class DirtyScreenFour extends StatelessWidget {
@@ -13,20 +13,20 @@ class DirtyScreenFour extends StatelessWidget {
         scrollDirection: Axis.vertical,
         child: Column(
           children: [
-            AufgabeFour(
+            TaskFour(
               icon: Icon(Icons.home, color: Colors.white),
               buttonname: "Home",
               colors: Colors.blue,
             ),
-            AufgabeFour(
+            TaskFour(
                 icon: Icon(Icons.work, color: Colors.white),
                 buttonname: "Work",
                 colors: Colors.green),
-            AufgabeFour(
+            TaskFour(
                 icon: Icon(Icons.school, color: Colors.white),
                 buttonname: "School",
                 colors: Colors.orange),
-            AufgabeFour(
+            TaskFour(
               buttonname: "Home",
               icon: Icon(Icons.directions_bike, color: Colors.white),
               colors: Colors.purple,
