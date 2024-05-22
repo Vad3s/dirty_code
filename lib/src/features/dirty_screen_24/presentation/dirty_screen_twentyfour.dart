@@ -14,19 +14,19 @@ class DirtyScreenTwentyFour extends StatelessWidget {
         children: const [
           TaskTwentyFour(
             name: 'Buy groceries',
-            isDone: false,
+            isChecked: false,
           ),
           TaskTwentyFour(
             name: 'Walk the dog',
-            isDone: true,
+            isChecked: true,
           ),
           TaskTwentyFour(
             name: 'Complete homework',
-            isDone: false,
+            isChecked: false,
           ),
           TaskTwentyFour(
             name: 'Call mom',
-            isDone: true,
+            isChecked: true,
           ),
         ],
       ),

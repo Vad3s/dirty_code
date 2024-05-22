@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 
 class TaskTwentyFour extends StatelessWidget {
   final String name;
-  final bool isDone;
+  final bool isChecked;
 
-  const TaskTwentyFour({super.key, required this.name, required this.isDone});
+  const TaskTwentyFour(
+      {super.key, required this.name, required this.isChecked});
 
   @override
   Widget build(BuildContext context) {
@@ -14,11 +15,11 @@ class TaskTwentyFour extends StatelessWidget {
         name,
         style: TextStyle(
           fontSize: 18,
-          decoration: isDone ? TextDecoration.lineThrough : null,
+          decoration: isChecked ? TextDecoration.lineThrough : null,
         ),
       ),
       trailing: Checkbox(
-        value: isDone,
+        value: isChecked,
         onChanged: (value) {},
       ),
     );
