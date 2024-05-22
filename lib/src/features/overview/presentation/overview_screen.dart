@@ -15,6 +15,7 @@ import 'package:dirty_code/src/features/dirty_screen_21/presentation/dirty_scree
 import 'package:dirty_code/src/features/dirty_screen_22/presentation/dirty_screen_twentytwo.dart';
 import 'package:dirty_code/src/features/dirty_screen_23/presentation/dirty_screen_twentythree.dart';
 import 'package:dirty_code/src/features/dirty_screen_24/presentation/dirty_screen_twentyfour.dart';
+import 'package:dirty_code/src/features/dirty_screen_26/presentation/dirty_screen_twentysix.dart';
 import 'package:dirty_code/src/features/dirty_screen_3/presentation/dirty_screen_three.dart';
 import 'package:dirty_code/src/features/dirty_screen_4/presentation/dirty_screen_four.dart';
 import 'package:dirty_code/src/features/dirty_screen_5/presentation/dirty_screen_five.dart';
@@ -23,6 +24,7 @@ import 'package:dirty_code/src/features/dirty_screen_7/presentation/dirty_screen
 import 'package:dirty_code/src/features/dirty_screen_8/presentation/dirty_screen_eight.dart';
 import 'package:dirty_code/src/features/dirty_screen_9/presentation/dirty_screen_nine.dart';
 import 'package:dirty_code/src/features/overview/presentation/dirty_nav_button.dart';
+import 'package:dirty_code/src/features/dirty_screen_25/presentation/dirty_screen_twentyfive.dart';
 import 'package:flutter/material.dart';
 
 class OverviewScreen extends StatelessWidget {
@@ -83,6 +85,10 @@ class OverviewScreen extends StatelessWidget {
           DirtyNavButton(destination: DirtyScreenTwentyThree(), number: 23),
           SizedBox(height: 16),
           DirtyNavButton(destination: DirtyScreenTwentyFour(), number: 24),
+          SizedBox(height: 16),
+          DirtyNavButton(destination: DirtyScreenTwentyFive(), number: 25),
+          SizedBox(height: 16),
+          DirtyNavButton(destination: DirtyScreenTwentySix(), number: 26),
         ]),
       ),
     );
